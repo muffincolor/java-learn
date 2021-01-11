@@ -2,6 +2,17 @@ package ru.muffincolor;
 
 public class Main {
 
+    byte b = 1;
+    short s = 2;
+    int i = 0;
+    long l = 5L;
+
+    float f = 2.0f;
+    double d = 4.4423;
+
+    char c = 'p';
+    boolean bool = true;
+
     public static void main(String[] args) {
         System.out.println(calculatePattern(1.0f, 2.3f, 4.3f, 2.3f));
         System.out.println(checkSum(10, 1));
